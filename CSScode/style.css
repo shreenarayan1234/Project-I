@@ -1,0 +1,83 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+div{
+  float: left;
+}
+.image {
+  width: 16%;
+  height: 100px;
+  background-color: #bfc5d4;
+}
+
+.image>img {
+  width: 90%;
+  height: 100%;
+  padding: 10px;
+}
+
+.library {
+  width: 84%;
+  height: 100px;
+   background-color: #bfc5d4;
+}
+
+.library>h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: royalblue;
+  font-family: times new roman;
+  font-weight: bolder;
+}
+
+.header {
+  color: red;
+  font-size: 3rem;
+  font-family: 'Franklin Gothic Medium';
+}
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #bfc5d4;
+  width: 16%;
+  height: 600px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  margin:auto;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:royalblue;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 10px;
+  border: 1px solid #ccc;
+  width: 84%;
+  border-left: none;
+  height: 600px;
+}
