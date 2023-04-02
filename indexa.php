@@ -4,7 +4,6 @@
     <link rel="stylesheet" href="CSScode/index.css">
 </head>
 <body>
-    <p>I made some Changes</p>
     <div class="background"></div>
     <div class="login">
 
